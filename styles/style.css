@@ -1,0 +1,26 @@
+.header{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background:#00BCD4;
+}
+.container{
+	height: 100px;
+	background: #00BCD4;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 70px;
+	width: 100%;
+	background: #00BCD4;
+	text-align: center;
+	list-style:none;
+}
+.topmenu-list{
+	top: 15px;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 15px;
+}

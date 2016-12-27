@@ -1,0 +1,17 @@
+name: jareen
+description: This is my drupal theme
+type: theme
+package: Custom
+core: 8.x
+
+regions:
+  header: Items of header
+  content: Items of content
+  sidebar_first: first sidebar
+  sidebar_second: second sidebar
+  footer: Items of footer
+  braedcrumbs: Items of braedcrumbs
+
+libraries:
+  - drup/global-assets
+  - drup/style

@@ -1,0 +1,6 @@
+style:
+  css:
+    theme:
+      styles/style.css: {}
+      styles/normal.css: {}
+

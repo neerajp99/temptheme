@@ -1,0 +1,23 @@
+<header id="navbar-primary" class="navbar-default header" role="navigation">
+    <div class="container">
+        {{ page.header }}
+    </div>
+</header>
+{{ page.breadcrump }}
+<main role="main">
+    <div class="main-content">
+        {{ page.content }}
+    </div> {# the conmtent goes here #} {% if page.sidebar_first %}
+    <aside class="layout-sidebar_first" role="complementory">
+        {{ page.sidebar_first }}
+    </aside>
+    {% endif %} {% if page.sidebar_second %}
+    <aside class="layout-sidebar_second" role="complementory">
+        {{ page.sidebar_second }}
+    </aside>
+</main>
+{% if page.footer %}
+<footer role="contentinfo">
+    {{ page.footer }}
+</footer>
+{% endif %}
